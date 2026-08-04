@@ -1,0 +1,4 @@
+interface:
+  display_name: "Object-Oriented Review"
+  short_description: "Review Python OOP design and SOLID evidence"
+  default_prompt: "Use $object-oriented-review to inspect this Python scope for justified OOP and SOLID findings without edits."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Performance Review"
+  short_description: "Review evidence-backed Python performance risks"
+  default_prompt: "Use $performance-review to inspect demonstrated Python performance and event-loop risks without edits."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "API and Docs Review"
+  short_description: "Review public API and documentation consistency"
+  default_prompt: "Use $api-docs-review to compare Python public interfaces with contracts and documentation without edits."

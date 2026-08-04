@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architecture Review"
+  short_description: "Review module boundaries and dependency direction"
+  default_prompt: "Use $architecture-review to inspect Python module boundaries, cycles, and dependency direction without edits."

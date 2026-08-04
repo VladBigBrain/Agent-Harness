@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Review"
+  short_description: "Review Python security risks without exploitation"
+  default_prompt: "Use $security-review to inspect scoped Python security risks and trust boundaries without editing or exploiting code."

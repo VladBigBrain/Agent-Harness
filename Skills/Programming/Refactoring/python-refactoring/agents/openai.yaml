@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Refactoring"
+  short_description: "Apply only approved Python refactorings"
+  default_prompt: "Use $python-refactoring to apply this approved plan within its exact paths and verify public behavior."

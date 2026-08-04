@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tests Review"
+  short_description: "Review test coverage and behavioral confidence"
+  default_prompt: "Use $tests-review to inspect test gaps, edge cases, and behavioral coverage without editing code."

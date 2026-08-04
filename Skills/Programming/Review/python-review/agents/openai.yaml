@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Review"
+  short_description: "Evidence-backed read-only Python review"
+  default_prompt: "Use $python-review to inspect this Python scope and return evidence-backed proposals without changing code."

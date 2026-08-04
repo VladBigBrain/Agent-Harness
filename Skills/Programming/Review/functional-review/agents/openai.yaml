@@ -1,0 +1,4 @@
+interface:
+  display_name: "Functional Review"
+  short_description: "Review functional design and mutation risks"
+  default_prompt: "Use $functional-review to inspect functional patterns, state, and side effects without editing code."

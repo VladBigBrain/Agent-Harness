@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dependency Review"
+  short_description: "Review dependency necessity, safety, and drift"
+  default_prompt: "Use $dependency-review to inspect declared Python dependencies and available audit signals without changes."

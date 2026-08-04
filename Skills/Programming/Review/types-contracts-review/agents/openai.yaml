@@ -1,0 +1,4 @@
+interface:
+  display_name: "Types and Contracts Review"
+  short_description: "Review types, models, and public contracts"
+  default_prompt: "Use $types-contracts-review to inspect Python typing and contract boundaries without editing code."
