@@ -1,0 +1,16 @@
+{
+  "name": "agent-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pinned upstream tools for token-efficient Codex workflows",
+  "scripts": {
+    "setup:core": "bash scripts/setup-core.sh",
+    "activate:codex": "bash scripts/activate-codex.sh",
+    "doctor": "bash scripts/doctor.sh",
+    "usage": "ccusage codex daily --offline",
+    "usage:json": "ccusage codex daily --offline --json"
+  },
+  "dependencies": {
+    "ccusage": "20.0.45"
+  }
+}

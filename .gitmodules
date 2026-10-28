@@ -1,0 +1,31 @@
+[submodule "rtk"]
+	path = upstream/rtk
+	url = https://github.com/rtk-ai/rtk.git
+
+[submodule "ccusage"]
+	path = upstream/ccusage
+	url = https://github.com/ccusage/ccusage.git
+
+[submodule "serena"]
+	path = upstream/serena
+	url = https://github.com/oraios/serena.git
+
+[submodule "headroom"]
+	path = upstream/headroom
+	url = https://github.com/headroomlabs-ai/headroom.git
+
+[submodule "jcodemunch"]
+	path = upstream/jcodemunch
+	url = https://github.com/jgravelle/jcodemunch-mcp.git
+
+[submodule "token-optimizer"]
+	path = upstream/token-optimizer
+	url = https://github.com/alexgreensh/token-optimizer.git
+
+[submodule "semantic-router"]
+	path = upstream/semantic-router
+	url = https://github.com/aurelio-labs/semantic-router.git
+
+[submodule "fastembed"]
+	path = upstream/fastembed
+	url = https://github.com/qdrant/fastembed.git

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Code Simplifier Refactoring"
-  short_description: "Apply approved Python simplifications safely"
-  default_prompt: "Use $code-simplifier-refactoring to apply approved simplification IDs and verify public behavior."

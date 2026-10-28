@@ -1,4 +1,0 @@
-interface:
-  display_name: "Style Refactoring"
-  short_description: "Apply only approved Python style changes"
-  default_prompt: "Use $style-refactoring to apply approved style finding IDs within their allowed paths and verify behavior."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Code Simplifier Review"
-  short_description: "Find duplication and avoidable Python complexity"
-  default_prompt: "Use $code-simplifier-review to find evidence-backed duplication and avoidable complexity without editing code."

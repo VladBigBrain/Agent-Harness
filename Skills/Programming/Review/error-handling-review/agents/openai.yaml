@@ -1,4 +1,0 @@
-interface:
-  display_name: "Error Handling Review"
-  short_description: "Review errors, cleanup, retries, and observability"
-  default_prompt: "Use $error-handling-review to inspect exception, cleanup, retry, and error-observability behavior without edits."

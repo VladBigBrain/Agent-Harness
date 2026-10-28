@@ -1,4 +1,0 @@
-interface:
-  display_name: "Async Review"
-  short_description: "Review async correctness and event-loop risks"
-  default_prompt: "Use $async-review to inspect async Python behavior, cancellation, and blocking risks without edits."

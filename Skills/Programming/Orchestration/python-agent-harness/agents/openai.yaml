@@ -1,4 +1,0 @@
-interface:
-  display_name: "Python Agent Harness"
-  short_description: "Gate review, approval, refactoring, and checks"
-  default_prompt: "Use $python-agent-harness to run a gated Python review, approval, refactoring, and verification workflow."

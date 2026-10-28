@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-28",
+  "projects": [
+    {
+      "name": "rtk",
+      "url": "https://github.com/rtk-ai/rtk.git",
+      "version": "v1.1.0",
+      "commit": "753a3b0e939f2e4490fc24e3a1984010f40a103c",
+      "path": "upstream/rtk",
+      "tier": "core",
+      "license_note": "Apache-2.0 OSS edition; optional engine BUSL-1.1"
+    },
+    {
+      "name": "ccusage",
+      "url": "https://github.com/ccusage/ccusage.git",
+      "version": "v20.0.45",
+      "commit": "154e13bb6658778e774821bc5d0f6a92dcc9ae36",
+      "path": "upstream/ccusage",
+      "tier": "core",
+      "license_note": "MIT"
+    },
+    {
+      "name": "serena",
+      "url": "https://github.com/oraios/serena.git",
+      "version": "v2.1.0",
+      "commit": "5e4f5cd173c7ff3eed37ee3f1de6c266b937c5dc",
+      "path": "upstream/serena",
+      "tier": "optional",
+      "license_note": "GPL-3.0-or-later application; MIT SolidLSP"
+    },
+    {
+      "name": "headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom.git",
+      "version": "v0.42.0",
+      "commit": "17d38e5699b7d7c69ac6addcd762f39e42dd7f00",
+      "path": "upstream/headroom",
+      "tier": "optional",
+      "license_note": "Apache-2.0"
+    },
+    {
+      "name": "jcodemunch",
+      "url": "https://github.com/jgravelle/jcodemunch-mcp.git",
+      "version": "v1.108.400",
+      "commit": "983779f1093ecae6982973443a55cdc181abf90b",
+      "path": "upstream/jcodemunch",
+      "tier": "optional-license-review",
+      "license_note": "Dual-Use; commercial use requires separate license"
+    },
+    {
+      "name": "token-optimizer",
+      "url": "https://github.com/alexgreensh/token-optimizer.git",
+      "version": "snapshot-2026-10-28",
+      "commit": "734da4eb1e96e10f93c0a93cd1dfecfeae93713d",
+      "path": "upstream/token-optimizer",
+      "tier": "optional-license-review",
+      "license_note": "PolyForm Noncommercial plus additional permissions"
+    },
+    {
+      "name": "semantic-router",
+      "url": "https://github.com/aurelio-labs/semantic-router.git",
+      "version": "v1.1.1",
+      "commit": "aef831098a0822944f32a3a8693138604d9c938b",
+      "path": "upstream/semantic-router",
+      "tier": "optional-library",
+      "license_note": "MIT"
+    },
+    {
+      "name": "fastembed",
+      "url": "https://github.com/qdrant/fastembed.git",
+      "version": "v0.9.1",
+      "commit": "4305bb4bd1d6155aaa9e21258b6255a81accf110",
+      "path": "upstream/fastembed",
+      "tier": "optional-library",
+      "license_note": "Apache-2.0; model licenses separate"
+    }
+  ]
+}
