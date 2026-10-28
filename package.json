@@ -8,7 +8,8 @@
     "activate:codex": "bash scripts/activate-codex.sh",
     "doctor": "bash scripts/doctor.sh",
     "usage": "ccusage codex daily --offline --no-cost",
-    "usage:json": "ccusage codex daily --offline --no-cost --json"
+    "usage:json": "ccusage codex daily --offline --no-cost --json",
+    "setup:audit": "bash scripts/setup-audit.sh"
   },
   "dependencies": {
     "ccusage": "20.0.45"

@@ -28,7 +28,7 @@ npm run usage
 | [Serena](https://github.com/oraios/serena) | 2.1.0 | Определения, references и точное чтение кода через MCP | Optional, сравнить с имеющимся codegraph |
 | [Headroom](https://github.com/headroomlabs-ai/headroom) | 0.42.0 | Большие JSON/логи, компрессия с доступом к оригиналам | Optional, отдельный MCP/proxy пилот |
 | [jCodeMunch](https://github.com/jgravelle/jcodemunch-mcp) | 1.108.400 | AST и получение исходника по символу | Optional, проверить коммерческую лицензию |
-| [Token Optimizer](https://github.com/alexgreensh/token-optimizer) | SHA snapshot | Аудит, dashboard, обнаружение циклов | Optional, ограничения лицензии и Codex-функций |
+| [Token Optimizer](https://github.com/alexgreensh/token-optimizer) | 5.13.60, pinned SHA | Аудит, dashboard, обнаружение циклов | Установлен, balanced; лицензия имеет ограничения |
 | [Semantic Router](https://github.com/aurelio-labs/semantic-router) | 1.1.1 | Маршрутизация в отдельном workflow | Optional library |
 | [FastEmbed](https://github.com/qdrant/fastembed) | 0.9.1 | Локальные embeddings через ONNX | Optional library; модели отдельно |
 
@@ -53,3 +53,13 @@ RTK `gain` измеряет сокращение обработанного вы
 - [Статус внедрения](docs/status.md)
 
 Прежний набор Skills/Tools удалён из актуального дерева. Полная старая версия доступна в теге `archive/pre-token-stack-20261028`; история Git сохранена.
+
+## Аудит Token Optimizer
+
+Установлен Token Optimizer 5.13.60. Воспроизводимая установка из закреплённого local marketplace:
+
+```sh
+npm run setup:audit
+```
+
+Профиль balanced включает SessionStart, UserPromptSubmit и Stop. Дополнительное Bash-сжатие и subagent hooks отключены: shell-вывод обрабатывает RTK. Фоновые daemon/Keep-Warm не устанавливаются. Сначала установите core; затем после установки аудита перезапустите Codex. Подробности: [docs/token-optimizer.md](docs/token-optimizer.md).

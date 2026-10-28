@@ -26,4 +26,10 @@
 
 Экономия полной пользовательской задачи и лимита подписки **ещё не измерена**. Встроенный RTK gain не заменяет парный task-level benchmark. ccusage и низкоуровневый аудит могут иметь различия по охвату событий; точное совпадение с биллингом не заявляется.
 
-Serena, Headroom, jCodeMunch, Token Optimizer, Semantic Router и FastEmbed представлены закреплёнными исходниками, но не активированы. Большие модели и фоновые сервисы не установлены и не запущены.
+Serena, Headroom, jCodeMunch, Semantic Router и FastEmbed представлены закреплёнными исходниками, но не активированы. Большие модели и фоновые сервисы не установлены и не запущены.
+
+## Token Optimizer 5.13.60 установлен
+
+Плагин включён через Codex CLI из закреплённого local marketplace. Установлены skills token-optimizer, token-coach, token-dashboard, fleet-auditor и resume-checkpoint. Native codex-install подключил balanced profile с SessionStart/UserPromptSubmit/Stop и compact prompt. Bash-компрессия, hot-path и subagent hooks выключены. RTK PreToolUse сохранён, model/effort/permissions и прежние глобальные инструкции не изменены.
+
+Doctor: 21 OK, 0 FAIL, 3 WARN. Предупреждения относятся к не включённой CLI status line, отсутствию необязательных project hooks и тому, что реальное выполнение Stop hook ещё не записано. Для проверки автоматического выполнения нужен перезапуск/новая сессия и завершённый ход Codex. Проверена идентичность ключевых файлов installed cache и pinned upstream. Частные отчёты и резервные копии хранятся только в ignored .local/.
